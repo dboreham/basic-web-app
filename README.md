@@ -1,6 +1,6 @@
 # A Basic Web App Template
 
-Uses [wsrun](https://github.com/hfour/wsrun)
+Uses [wsrun](https://github.com/hfour/wsrun), [yarn](https://yarnpkg.com/), [babel](https://babeljs.io/), [webpack](https://webpack.js.org/), [ES9](https://ecma-international.org/ecma-262/9.0/).
 
 ## Create the project skeleton
 
