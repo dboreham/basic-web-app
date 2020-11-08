@@ -123,6 +123,10 @@ module.exports = {
   </body>
 </html>
 ```
+1. Create one or more source files, e.g. `src/index.js` with some content, e.g.:
+```
+alert('Yo!');
+```
 ### Notes
 Used a specific version of `html-webpack-plugin` due to [this bug](https://github.com/jantimon/html-webpack-plugin/issues/1523).
 
