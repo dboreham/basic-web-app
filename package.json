@@ -1,0 +1,20 @@
+{
+    "name": "@dboreham/basic-web-app",
+    "version": "1.0.0",
+    "description": "Dboreham Tutorials",
+    "private": true,
+    "author": "d.boreh.am",
+    "license": "GPL-3.0",
+    "workspaces": ["web-app"],
+    "scripts": {
+      "build": "wsrun -t build",
+      "clean": "wsrun clean",
+      "lint": "wsrun lint",
+      "test": "wsrun -s test"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+      "wsrun": "^5.2.4"
+    }
+}

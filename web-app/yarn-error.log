@@ -1,0 +1,45 @@
+Arguments: 
+  /home/david/.nvm/versions/node/v12.18.3/bin/node /usr/share/yarn/bin/yarn.js add --dev webpack-dev-server
+
+PATH: 
+  /home/david/.nvm/versions/node/v12.18.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/david/.yarn/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/david/projects/play/basic-web-app/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "@dboreham/tutorial-web-app",
+      "version": "1.0.0",
+      "private": false,
+      "author": "DXOS.org",
+      "license": "GPL-3.0",
+      "scripts": {
+        "build": "webpack -p",
+        "start": "webpack-dev-server"
+      },
+      "dependencies": {
+      },
+      "devDependencies": {
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
