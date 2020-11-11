@@ -2,7 +2,7 @@
     "name": "@dboreham/tutorial-web-app",
     "version": "1.0.0",
     "private": false,
-    "author": "DXOS.org",
+    "author": "d.boreh.am",
     "license": "GPL-3.0",
     "scripts": {
         "build": "webpack",
